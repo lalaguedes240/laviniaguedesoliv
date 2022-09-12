@@ -376,7 +376,7 @@ footer
 	}
 	
 
-	.resumo p { padding-bottom: 10px; }
+	.resumo p { padding-bottom: 18px; }
 
 
 	.personagens
@@ -523,7 +523,7 @@ footer
 {
 
 	position: relative;
-	top: 200px;
+	bottom: 200px;
 
 
 
