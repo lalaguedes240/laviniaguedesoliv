@@ -1,0 +1,593 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+
+
+body
+
+
+{
+ 
+}
+
+
+header 
+{
+
+
+		background-image: url(../images/todos.jpg);
+
+		
+		background-position: top center;
+		background-repeat: no-repeat;
+		background-size: cover;	
+		width: 100%;
+		height: 100%;
+	    position: absolute;
+		
+	   		
+}
+
+.logo
+{
+	height: 470px;
+	position: relative;
+	padding-bottom: 500px;
+	margin-right: 200;
+
+
+	
+}
+
+.resumo
+{
+
+	position: relative;
+	top: 670px;
+	width: 970px;
+	display: block;
+	margin: auto;
+}
+
+
+.resumo p 
+{
+	padding-bottom: 10px;
+}
+
+
+
+.a p
+{
+	padding-bottom: 17px;
+	font-size: 25px;
+	font-family: 'Open Sans', sans-serif
+
+}
+
+
+section p 
+{
+	font-size: 14spx;
+
+	font-family: 'Open Sans', sans-serif
+
+}
+
+
+.personagens 
+{
+
+	
+	
+    position: relative;
+	
+	top: 700px;
+	height: 800px;
+	display: block;
+	margin: auto;
+
+	width: 940px;
+
+		
+
+
+}
+
+
+.conteudo1
+{
+	
+	display: flex;
+	direction: row;
+	background-color:  #306c4a ;
+	height: 235px;
+}
+
+.conteudo1 img 
+{
+	position: relative;
+	top: 3px;
+}	
+   
+
+}
+
+
+.personagens p 
+{
+
+	width: 600px;
+	font-size: 14px;
+	padding-top: 10px;
+	padding-left:10px;
+	color: black;
+
+
+
+}
+
+h2 
+{
+	padding-top: 3px;
+	color: #fff;
+	font-size: 18px;
+	font-family: 'Open Sans', sans-serif
+
+}
+
+
+.ft
+{
+
+	position: relative;
+	bottom: 90px;
+
+}
+
+
+
+.escrita 
+{
+
+	width: 790px;
+	padding-left: 18px;	
+	padding-top: 12px;
+
+}
+
+.escrita p 
+{
+    color: #fff;
+	font-size: 15px;
+}
+
+.conteudo2 
+{
+	position: relative;
+	top: 20px;
+	display: flex;
+	direction: row;
+	background-color:  #e0b98d;
+	height: 245px;
+
+
+
+}
+
+
+.conteudo2 img 
+{
+	position: relative;
+	bottom: 87px;
+}
+
+.conteudo3 
+{
+	
+    position: relative;
+    top:40px;
+	
+	display: flex;
+	direction: row;
+	background-color:  #d4344f;
+	height: 235px;
+	margin-bottom: 30px;
+	
+}
+
+.conteudo3 img 
+{
+	position: relative;
+	top: 3px;
+}
+
+.conteudo4
+{
+	position: relative;
+	top: 30px;
+	display: flex;
+	direction: row;
+	background-color:   #6665a6 ;
+	height: 235px;
+}
+
+.conteudo4 img
+{
+	position: relative;
+	bottom: 87px;
+}
+
+
+
+.espaço 
+{
+	height: 10px;
+}
+
+
+
+.conteudo5
+{
+	
+	display: flex;
+	direction: row;
+	background-color:  #bf73b1  ;
+	height: 235px;
+	position: relative;
+	top: 50px;
+}	
+
+.conteudo5 img 
+{
+	position: relative;
+	top: 3px;
+}
+
+
+.conteudo6
+{
+	position: relative;
+	top: 70px;
+	display: flex;
+	direction: row;
+	background-color:   #ddb348  ;
+	height: 235px;
+}
+
+
+.conteudo6 img 
+{
+	position: relative;
+	bottom: 87px;
+}
+
+
+.conteudo7
+{
+	
+	display: flex;
+	direction: row;
+	background-color: #9d8e75;
+	height: 235px;
+	position: relative;
+	top: 90px;
+}	
+
+.conteudo7 img 
+{
+	position: relative;
+	bottom: 87px;
+}
+
+
+footer
+{
+	height: 60px;
+	width: 100%;
+	background-color: #fff;
+}
+
+.escritap 
+{
+	width: 790px;
+	padding-left: 18px;	
+	padding-top: 12px;
+
+}
+
+
+
+.escritap p
+{
+	position: relative;
+	top: 70px;
+	    color: #fff;
+	font-size: 15px;
+
+
+
+	
+}
+
+.escritap h2 
+{
+	position: relative;
+	top: 45px;
+}
+
+/*------------------------------------------------------------Media Query---------------------------------------------------------------------*/
+
+
+@media screen and (max-width: 414px)
+
+
+{
+
+
+	.logo img 
+	{
+		width: 200px;
+	}
+
+
+	header
+
+	{
+
+
+
+		background-size: contain;
+		height: 200px;
+		width: 100%;
+
+	}
+
+	.logo 
+	{
+			height: 100px;
+
+	}
+
+
+
+	.resumo 
+
+	{
+		position: relative;
+		top: 200px;
+		width: 100%;
+		font-size: center;
+		padding-left: 0px;
+
+
+	}
+	
+
+	.resumo p { padding-bottom: 10px; }
+
+
+	.personagens
+	{
+		width: 350px;
+		flex-direction: column; align-items: center; gap: 70px ;
+		justify-content: center;
+		position: relative;
+		top: 200px;
+
+	}
+
+	.conteudo1 
+	{
+		height: 600px;
+		flex-direction: column;
+	}
+
+
+		.escrita 
+		{
+			width: 300px;
+			height: 30px;
+			position: relative;
+			top: 300px;
+		}
+
+
+		.conteudo2
+	{
+		height: 600px;
+		flex-direction: column;
+	}
+
+	.conteudo2 p  
+	{
+		position: relative;
+		bottom: 378px;
+	}
+
+	.conteudo2 h2 
+	{
+
+		position: relative;
+		bottom: 388px;
+	}
+
+
+
+	.conteudo3
+	{
+		height: 600px;
+		flex-direction: column;
+	}
+
+
+
+		.conteudo4
+	{
+		height: 600px;
+		flex-direction: column;
+	}
+
+
+	.conteudo4 p 
+	{
+
+		position: relative;
+		bottom: 370px;
+	}
+
+	.conteudo4 h2 
+	{
+
+		position: relative;
+		bottom: 388px;
+	}
+
+	.conteudo5
+	{
+		height: 600px;
+		flex-direction: column;
+	}
+
+
+		.conteudo6
+	{
+		height: 600px;
+		flex-direction: column;
+	}
+
+
+	.conteudo6 p 
+	{
+
+		position: relative;
+		bottom: 570px;
+		width: 300px;
+	}
+
+
+
+	.escritap 
+	{
+		width: 300px;
+		position: relative;
+		bottom: 100px;
+
+	}
+
+	.conteudo6 h2 
+	{
+
+		position: relative;
+		bottom: 388px;
+	}
+
+
+	.conteudo7
+	{
+		height: 600px;
+		flex-direction: column;
+	}
+
+
+
+	.conteudo7 p 
+	{
+
+		postion: relative;
+		top: 420px;
+    }
+
+
+.conteudo7 h2
+{
+
+	position: relative;
+	top: 380px;
+}
+
+
+	 .ftu
+{
+
+	position: relative;
+	bottom: 300px;
+}
+
+.a 
+{
+
+	margin-bottom: 3px;
+}
+
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width: 361px) and (max-width: 740px)
+{
+		header
+	{
+			background-size: contain;
+		    height: 500px;
+	}
+
+	.logo 
+	{
+			height: 200px;
+
+	}
+
+
+
+
+	.resumo 
+	{
+
+		position: relative;
+		top: 460px;
+		width: 100%;
+		font-size: center;
+		padding-left: 4px;
+	}
+
+
+	.resumo p
+	{
+		padding-bottom: 10px;
+	}
+
+	.personagens 
+	{
+
+		width: 100%;
+	}
+
+	.escrita
+	{
+
+		width: 300px;
+		position: relative;
+		bottom: 10px;
+
+	}
+
+	.escritap
+	{
+
+		width: 4ss00px;
+		position: relative;
+		bottom: 60px;
+
+
+
+}
+
